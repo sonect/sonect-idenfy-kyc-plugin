@@ -7,32 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D170D12428EEEA00C5037E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D170D02428EEEA00C5037E /* AppDelegate.m */; };
-		04D170D42428EEEA00C5037E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D170D32428EEEA00C5037E /* SceneDelegate.m */; };
-		04D170D72428EEEA00C5037E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D170D62428EEEA00C5037E /* ViewController.m */; };
-		04D170DA2428EEEA00C5037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D170D82428EEEA00C5037E /* Main.storyboard */; };
-		04D170DC2428EEEC00C5037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D170DB2428EEEC00C5037E /* Assets.xcassets */; };
-		04D170DF2428EEEC00C5037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D170DD2428EEEC00C5037E /* LaunchScreen.storyboard */; };
-		04D170E22428EEEC00C5037E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D170E12428EEEC00C5037E /* main.m */; };
+		04D1710C2428F0A900C5037E /* IdenfyKycPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04D170CC2428EEE900C5037E /* IdenfyKycPlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdenfyKycPlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D170CF2428EEEA00C5037E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04D170D02428EEEA00C5037E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04D170D22428EEEA00C5037E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		04D170D32428EEEA00C5037E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		04D170D52428EEEA00C5037E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04D170D62428EEEA00C5037E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04D170D92428EEEA00C5037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04D170DB2428EEEC00C5037E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04D170DE2428EEEC00C5037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		04D170E02428EEEC00C5037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D170E12428EEEC00C5037E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdenfyKycPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdenfyKycPlugin.h; sourceTree = "<group>"; };
+		04D1710B2428F0A900C5037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04D170C92428EEE900C5037E /* Frameworks */ = {
+		04D171042428F0A900C5037E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,50 +27,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04D170C32428EEE900C5037E = {
+		04D170FD2428F0A900C5037E = {
 			isa = PBXGroup;
 			children = (
-				04D170CE2428EEEA00C5037E /* IdenfyKycPlugin */,
-				04D170CD2428EEE900C5037E /* Products */,
+				04D171092428F0A900C5037E /* IdenfyKycPlugin */,
+				04D171082428F0A900C5037E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		04D170CD2428EEE900C5037E /* Products */ = {
+		04D171082428F0A900C5037E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04D170CC2428EEE900C5037E /* IdenfyKycPlugin.app */,
+				04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04D170CE2428EEEA00C5037E /* IdenfyKycPlugin */ = {
+		04D171092428F0A900C5037E /* IdenfyKycPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				04D170CF2428EEEA00C5037E /* AppDelegate.h */,
-				04D170D02428EEEA00C5037E /* AppDelegate.m */,
-				04D170D22428EEEA00C5037E /* SceneDelegate.h */,
-				04D170D32428EEEA00C5037E /* SceneDelegate.m */,
-				04D170D52428EEEA00C5037E /* ViewController.h */,
-				04D170D62428EEEA00C5037E /* ViewController.m */,
-				04D170D82428EEEA00C5037E /* Main.storyboard */,
-				04D170DB2428EEEC00C5037E /* Assets.xcassets */,
-				04D170DD2428EEEC00C5037E /* LaunchScreen.storyboard */,
-				04D170E02428EEEC00C5037E /* Info.plist */,
-				04D170E12428EEEC00C5037E /* main.m */,
+				04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */,
+				04D1710B2428F0A900C5037E /* Info.plist */,
 			);
 			path = IdenfyKycPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		04D171022428F0A900C5037E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D1710C2428F0A900C5037E /* IdenfyKycPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		04D170CB2428EEE900C5037E /* IdenfyKycPlugin */ = {
+		04D171062428F0A900C5037E /* IdenfyKycPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04D170E52428EEEC00C5037E /* Build configuration list for PBXNativeTarget "IdenfyKycPlugin" */;
+			buildConfigurationList = 04D1710F2428F0A900C5037E /* Build configuration list for PBXNativeTarget "IdenfyKycPlugin" */;
 			buildPhases = (
-				04D170C82428EEE900C5037E /* Sources */,
-				04D170C92428EEE900C5037E /* Frameworks */,
-				04D170CA2428EEE900C5037E /* Resources */,
+				04D171022428F0A900C5037E /* Headers */,
+				04D171032428F0A900C5037E /* Sources */,
+				04D171042428F0A900C5037E /* Frameworks */,
+				04D171052428F0A900C5037E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -93,24 +81,24 @@
 			);
 			name = IdenfyKycPlugin;
 			productName = IdenfyKycPlugin;
-			productReference = 04D170CC2428EEE900C5037E /* IdenfyKycPlugin.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		04D170C42428EEE900C5037E /* Project object */ = {
+		04D170FE2428F0A900C5037E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Sonect;
 				TargetAttributes = {
-					04D170CB2428EEE900C5037E = {
+					04D171062428F0A900C5037E = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 04D170C72428EEE900C5037E /* Build configuration list for PBXProject "IdenfyKycPlugin" */;
+			buildConfigurationList = 04D171012428F0A900C5037E /* Build configuration list for PBXProject "IdenfyKycPlugin" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,64 +106,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 04D170C32428EEE900C5037E;
-			productRefGroup = 04D170CD2428EEE900C5037E /* Products */;
+			mainGroup = 04D170FD2428F0A900C5037E;
+			productRefGroup = 04D171082428F0A900C5037E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04D170CB2428EEE900C5037E /* IdenfyKycPlugin */,
+				04D171062428F0A900C5037E /* IdenfyKycPlugin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04D170CA2428EEE900C5037E /* Resources */ = {
+		04D171052428F0A900C5037E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D170DF2428EEEC00C5037E /* LaunchScreen.storyboard in Resources */,
-				04D170DC2428EEEC00C5037E /* Assets.xcassets in Resources */,
-				04D170DA2428EEEA00C5037E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04D170C82428EEE900C5037E /* Sources */ = {
+		04D171032428F0A900C5037E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D170D72428EEEA00C5037E /* ViewController.m in Sources */,
-				04D170D12428EEEA00C5037E /* AppDelegate.m in Sources */,
-				04D170E22428EEEC00C5037E /* main.m in Sources */,
-				04D170D42428EEEA00C5037E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		04D170D82428EEEA00C5037E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04D170D92428EEEA00C5037E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04D170DD2428EEEC00C5037E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04D170DE2428EEEC00C5037E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		04D170E32428EEEC00C5037E /* Debug */ = {
+		04D1710D2428F0A900C5037E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,6 +170,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -230,10 +193,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		04D170E42428EEEC00C5037E /* Release */ = {
+		04D1710E2428F0A900C5037E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,6 +231,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -282,39 +248,53 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		04D170E62428EEEC00C5037E /* Debug */ = {
+		04D171102428F0A900C5037E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = IdenfyKycPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.IdenfyKycPlugin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		04D170E72428EEEC00C5037E /* Release */ = {
+		04D171112428F0A900C5037E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = IdenfyKycPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.IdenfyKycPlugin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -322,25 +302,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04D170C72428EEE900C5037E /* Build configuration list for PBXProject "IdenfyKycPlugin" */ = {
+		04D171012428F0A900C5037E /* Build configuration list for PBXProject "IdenfyKycPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04D170E32428EEEC00C5037E /* Debug */,
-				04D170E42428EEEC00C5037E /* Release */,
+				04D1710D2428F0A900C5037E /* Debug */,
+				04D1710E2428F0A900C5037E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04D170E52428EEEC00C5037E /* Build configuration list for PBXNativeTarget "IdenfyKycPlugin" */ = {
+		04D1710F2428F0A900C5037E /* Build configuration list for PBXNativeTarget "IdenfyKycPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04D170E62428EEEC00C5037E /* Debug */,
-				04D170E72428EEEC00C5037E /* Release */,
+				04D171102428F0A900C5037E /* Debug */,
+				04D171112428F0A900C5037E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 04D170C42428EEE900C5037E /* Project object */;
+	rootObject = 04D170FE2428F0A900C5037E /* Project object */;
 }
