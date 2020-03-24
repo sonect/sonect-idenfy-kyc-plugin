@@ -18,5 +18,5 @@ target 'KycPluginIntegrationApp' do
   # Pods for KycPluginIntegrationApp
   pod 'iDenfySDK/iDenfyLiveness'
   pod 'sonect-shop-sdk-ios'
-  
+
 end
