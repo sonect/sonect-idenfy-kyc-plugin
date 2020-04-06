@@ -12,7 +12,7 @@ PODS:
   - MotionAnimator (2.8.1):
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
-  - sonect-shop-sdk-ios (0.0.20)
+  - sonect-shop-sdk-ios (0.0.21)
 
 DEPENDENCIES:
   - iDenfySDK/iDenfyLiveness
@@ -33,7 +33,7 @@ SPEC CHECKSUMS:
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
-  sonect-shop-sdk-ios: 6c3f9cebabceb6d0ff6cb91e009a0eecbe68a0ff
+  sonect-shop-sdk-ios: 32fb1a9504830792516cbaffd54714b69ee6a0af
 
 PODFILE CHECKSUM: 09d9f8405dcf2bdefbfea84d83b38405b4342b98
 
