@@ -19,6 +19,8 @@
 		04080311243B8D61003F12FA /* Idenfy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04080302243B755C003F12FA /* Idenfy.storyboard */; };
 		04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; };
 		04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04080317243C97E8003F12FA /* Pods_KycPluginIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D675FBDB19B13AF441114F49 /* Pods_KycPluginIntegrationApp.framework */; };
+		04080318243C97E8003F12FA /* Pods_KycPluginIntegrationApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D675FBDB19B13AF441114F49 /* Pods_KycPluginIntegrationApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D1710C2428F0A900C5037E /* IdenfyKycPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04D171312428F39300C5037E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171302428F39300C5037E /* AppDelegate.swift */; };
 		04D171332428F39300C5037E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171322428F39300C5037E /* SceneDelegate.swift */; };
@@ -26,19 +28,10 @@
 		04D171382428F39300C5037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D171362428F39300C5037E /* Main.storyboard */; };
 		04D1713A2428F39400C5037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D171392428F39400C5037E /* Assets.xcassets */; };
 		04D1713D2428F39400C5037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1713B2428F39400C5037E /* LaunchScreen.storyboard */; };
-		16EAFA2ABC7F0CB98EC71131 /* Pods_IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E339AF1DA967266673A770F1 /* Pods_IdenfyKycPlugin.framework */; };
-		1D102A94CE2A02C7309F447C /* Pods_KycPluginIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D675FBDB19B13AF441114F49 /* Pods_KycPluginIntegrationApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0408030D243B8B12003F12FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04D170FE2428F0A900C5037E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04D171062428F0A900C5037E;
-			remoteInfo = IdenfyKycPlugin;
-		};
-		04080314243B8E19003F12FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04D170FE2428F0A900C5037E /* Project object */;
 			proxyType = 1;
@@ -54,6 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				04080318243C97E8003F12FA /* Pods_KycPluginIntegrationApp.framework in Embed Frameworks */,
 				04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -103,7 +97,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16EAFA2ABC7F0CB98EC71131 /* Pods_IdenfyKycPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04080317243C97E8003F12FA /* Pods_KycPluginIntegrationApp.framework in Frameworks */,
 				04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */,
-				1D102A94CE2A02C7309F447C /* Pods_KycPluginIntegrationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +248,6 @@
 			);
 			dependencies = (
 				0408030E243B8B12003F12FA /* PBXTargetDependency */,
-				04080315243B8E19003F12FA /* PBXTargetDependency */,
 			);
 			name = KycPluginIntegrationApp;
 			productName = KycPluginIntegrationApp;
@@ -423,11 +415,6 @@
 			isa = PBXTargetDependency;
 			target = 04D171062428F0A900C5037E /* IdenfyKycPlugin */;
 			targetProxy = 0408030D243B8B12003F12FA /* PBXContainerItemProxy */;
-		};
-		04080315243B8E19003F12FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04D171062428F0A900C5037E /* IdenfyKycPlugin */;
-			targetProxy = 04080314243B8E19003F12FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
