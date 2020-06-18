@@ -13,7 +13,7 @@ Via dependency managers:
 ) and integrate it by unzipping the file and drag and dropping it into your project structure. 
 Check the integration sample provided in the repository. 
 
-To use this plugin, you will also need Scandit SDK and license. 
+To use this plugin, you will also need Idenfy SDK. 
 Contact Sonect (support@sonect.ch) for further instructions. 
 
 
