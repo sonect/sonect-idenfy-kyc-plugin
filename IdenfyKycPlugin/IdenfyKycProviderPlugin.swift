@@ -66,14 +66,12 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
         let idenfyLivenessUISettings = IdenfyLivenessUISettings()
         idenfyLivenessUISettings.livenessFeedbackBackgroundColor = flamingoColor
         idenfyLivenessUISettings.livenessFeedbackFontColor = whiteColor
-        idenfyLivenessUISettings.livenessMainBackgroundColor = blackColor
-        idenfyLivenessUISettings.livenessMainForegroundColor = blackColor
         idenfyLivenessUISettings.livenessFrameBackgroundColor = blackColor
         idenfyLivenessUISettings.livenessIdentificationOvalProgressColor1 = flamingoColor
         idenfyLivenessUISettings.livenessIdentificationOvalProgressColor2 = flamingoColor
         idenfyLivenessUISettings.livenessIdentificationProgressStrokeColor = flamingoColor
-        idenfyLivenessUISettings.livenessIdentificationProgressStrokeWidth = 8.0
-        idenfyLivenessUISettings.livenessIdentificationProgressRadialOffset = 16.0
+        idenfyLivenessUISettings.livenessIdentificationProgressStrokeWidth = 8
+        idenfyLivenessUISettings.livenessIdentificationProgressRadialOffset = 16
         
         let idenfyUISettings = IdenfyUIBuilder()
             .withLivenessUISettings(livenessUISettings: idenfyLivenessUISettings)
@@ -93,7 +91,7 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
         
         let idenfySettings = IdenfyBuilder()
             .withUISettings(idenfyUISettings)
-            .withCustomStoryboard(true)
+            .withCustomLocalStoryboard(true)
             .withIssuingCountry(countryCode)
             .withAuthToken(token)
             .build()

@@ -28,6 +28,7 @@
 		04D171382428F39300C5037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D171362428F39300C5037E /* Main.storyboard */; };
 		04D1713A2428F39400C5037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D171392428F39400C5037E /* Assets.xcassets */; };
 		04D1713D2428F39400C5037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1713B2428F39400C5037E /* LaunchScreen.storyboard */; };
+		29BE96BE1AFFFE37F9EBB3A0 /* Pods_IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E339AF1DA967266673A770F1 /* Pods_IdenfyKycPlugin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BE96BE1AFFFE37F9EBB3A0 /* Pods_IdenfyKycPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +593,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = IdenfyKycPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,6 +621,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = IdenfyKycPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

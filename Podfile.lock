@@ -1,40 +1,56 @@
 PODS:
-  - iDenfySDK/iDenfyLiveness (1.3.1.0):
+  - iDenfySDK/iDenfyLiveness (3.2.3):
+    - JGProgressHUD
+    - lottie-ios
     - MaterialComponents/ActivityIndicator
-  - MaterialComponents/ActivityIndicator (107.4.0):
+    - Pulsator
+    - ZIPFoundation (~> 0.9)
+  - JGProgressHUD (2.1)
+  - lottie-ios (3.1.8)
+  - MaterialComponents/ActivityIndicator (109.8.0):
     - MaterialComponents/Palettes
     - MaterialComponents/private/Application
     - MDFInternationalization
     - MotionAnimator (~> 2.0)
-  - MaterialComponents/Palettes (107.4.0)
-  - MaterialComponents/private/Application (107.4.0)
+  - MaterialComponents/Palettes (109.8.0)
+  - MaterialComponents/private/Application (109.8.0)
   - MDFInternationalization (2.0.0)
   - MotionAnimator (2.8.1):
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
-  - sonect-shop-sdk-ios (0.0.21)
+  - Pulsator (0.6.0)
+  - sonect-shop-sdk-ios (1.2.1)
+  - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
   - iDenfySDK/iDenfyLiveness
   - sonect-shop-sdk-ios
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - iDenfySDK
+    - JGProgressHUD
+    - lottie-ios
     - MaterialComponents
     - MDFInternationalization
     - MotionAnimator
     - MotionInterchange
+    - Pulsator
     - sonect-shop-sdk-ios
+    - ZIPFoundation
 
 SPEC CHECKSUMS:
-  iDenfySDK: ea4a1264218d9495f2c706d8181ca8ad5001970f
-  MaterialComponents: 52e2ade4684e3017eff7f62587b37522d217ea50
+  iDenfySDK: 6863dbf4506802a65886a781db3bc1a8516c794a
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  MaterialComponents: 00df0652f52cd6968b02d531bd2e6956b0f907b8
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
-  sonect-shop-sdk-ios: 32fb1a9504830792516cbaffd54714b69ee6a0af
+  Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
+  sonect-shop-sdk-ios: ff9805e68027168994598a549a5273c31905d7dd
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: 09d9f8405dcf2bdefbfea84d83b38405b4342b98
+PODFILE CHECKSUM: ea9ad42d833604037b1d9086de56fecb1894ca68
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.2
