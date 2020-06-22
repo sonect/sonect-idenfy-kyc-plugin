@@ -10,11 +10,6 @@
 		04080305243B755C003F12FA /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040802F2243B755C003F12FA /* BorderedButton.swift */; };
 		04080306243B755C003F12FA /* IdenfyTakePhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040802F3243B755C003F12FA /* IdenfyTakePhotoButton.swift */; };
 		04080307243B755C003F12FA /* IdenfyKycProviderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040802F4243B755C003F12FA /* IdenfyKycProviderPlugin.swift */; };
-		04080308243B755C003F12FA /* Zoom.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040802F6243B755C003F12FA /* Zoom.strings */; };
-		04080309243B755C003F12FA /* Idenfy.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040802F8243B755C003F12FA /* Idenfy.strings */; };
-		0408030A243B755C003F12FA /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04080300243B755C003F12FA /* arrow@3x.png */; };
-		0408030B243B755C003F12FA /* IdenfyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04080301243B755C003F12FA /* IdenfyImages.xcassets */; };
-		0408030C243B755C003F12FA /* Idenfy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04080302243B755C003F12FA /* Idenfy.storyboard */; };
 		04080310243B8B9F003F12FA /* SonectShopConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0408030F243B8B9E003F12FA /* SonectShopConfiguration.plist */; };
 		04080311243B8D61003F12FA /* Idenfy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04080302243B755C003F12FA /* Idenfy.storyboard */; };
 		04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; };
@@ -28,7 +23,7 @@
 		04D171382428F39300C5037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D171362428F39300C5037E /* Main.storyboard */; };
 		04D1713A2428F39400C5037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D171392428F39400C5037E /* Assets.xcassets */; };
 		04D1713D2428F39400C5037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1713B2428F39400C5037E /* LaunchScreen.storyboard */; };
-		29BE96BE1AFFFE37F9EBB3A0 /* Pods_IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E339AF1DA967266673A770F1 /* Pods_IdenfyKycPlugin.framework */; };
+		969AC55324A0EC970059410E /* Pods_IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E339AF1DA967266673A770F1 /* Pods_IdenfyKycPlugin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BE96BE1AFFFE37F9EBB3A0 /* Pods_IdenfyKycPlugin.framework in Frameworks */,
+				969AC55324A0EC970059410E /* Pods_IdenfyKycPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,11 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04080308243B755C003F12FA /* Zoom.strings in Resources */,
-				04080309243B755C003F12FA /* Idenfy.strings in Resources */,
-				0408030B243B755C003F12FA /* IdenfyImages.xcassets in Resources */,
-				0408030C243B755C003F12FA /* Idenfy.storyboard in Resources */,
-				0408030A243B755C003F12FA /* arrow@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +592,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.IdenfyKycPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -630,6 +621,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.IdenfyKycPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
