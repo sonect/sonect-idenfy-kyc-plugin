@@ -20,5 +20,8 @@ Pod::Spec.new do |spec|
     spec.source       = { :git => "https://github.com/sonect/sonect-idenfy-kyc-plugin.git", :tag => spec.version }
     spec.source_files       = 'IdenfyKycPlugin/*.swift', 'IdenfyKycPlugin/Classes/*.swift'
   
+    spec.dependency 'iDenfySDK/iDenfyLiveness'
+    spec.dependency 'sonect-shop-sdk-ios'
+
   end
   
