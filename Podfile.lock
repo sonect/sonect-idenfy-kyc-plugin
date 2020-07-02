@@ -19,7 +19,7 @@ PODS:
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
   - Pulsator (0.6.0)
-  - sonect-core-ios (1.0.1)
+  - sonect-core-ios (1.0.2)
   - sonect-shop-sdk-ios (1.2.12)
   - ZIPFoundation (0.9.11)
 
@@ -51,7 +51,7 @@ SPEC CHECKSUMS:
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
-  sonect-core-ios: 44fa87cacc2df18186a0b72d4103dff259766598
+  sonect-core-ios: 0a3613ab6835092e1167eb7eb68950805fc0f599
   sonect-shop-sdk-ios: a725efdd11cbab7c743c143049d06e1b8098f27a
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
