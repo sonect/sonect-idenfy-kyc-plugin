@@ -14,16 +14,15 @@
 		04080311243B8D61003F12FA /* Idenfy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04080302243B755C003F12FA /* Idenfy.storyboard */; };
 		04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; };
 		04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04080317243C97E8003F12FA /* Pods_KycPluginIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D675FBDB19B13AF441114F49 /* Pods_KycPluginIntegrationApp.framework */; };
-		04080318243C97E8003F12FA /* Pods_KycPluginIntegrationApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D675FBDB19B13AF441114F49 /* Pods_KycPluginIntegrationApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04080318243C97E8003F12FA /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D1710C2428F0A900C5037E /* IdenfyKycPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04D171312428F39300C5037E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171302428F39300C5037E /* AppDelegate.swift */; };
-		04D171332428F39300C5037E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171322428F39300C5037E /* SceneDelegate.swift */; };
 		04D171352428F39300C5037E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171342428F39300C5037E /* ViewController.swift */; };
 		04D171382428F39300C5037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D171362428F39300C5037E /* Main.storyboard */; };
 		04D1713A2428F39400C5037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D171392428F39400C5037E /* Assets.xcassets */; };
 		04D1713D2428F39400C5037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1713B2428F39400C5037E /* LaunchScreen.storyboard */; };
-		969AC55324A0EC970059410E /* Pods_IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E339AF1DA967266673A770F1 /* Pods_IdenfyKycPlugin.framework */; };
+		D954BD65A939CDEDC0A3A65A /* Pods_KycPluginIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CE07A94D54BC5053B0E51A /* Pods_KycPluginIntegrationApp.framework */; };
+		FC918028AE74BF3B81B3F6A8 /* Pods_IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2630BE9F09A4E3F110D0B8FF /* Pods_IdenfyKycPlugin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04080318243C97E8003F12FA /* Pods_KycPluginIntegrationApp.framework in Embed Frameworks */,
+				04080318243C97E8003F12FA /* BuildFile in Embed Frameworks */,
 				04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -52,7 +51,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02F71DD814EFADC04865C6B4 /* Pods-KycPluginIntegrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KycPluginIntegrationApp.debug.xcconfig"; path = "Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		040802F2243B755C003F12FA /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 		040802F3243B755C003F12FA /* IdenfyTakePhotoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdenfyTakePhotoButton.swift; sourceTree = "<group>"; };
 		040802F4243B755C003F12FA /* IdenfyKycProviderPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdenfyKycProviderPlugin.swift; sourceTree = "<group>"; };
@@ -75,17 +73,17 @@
 		04D1710B2428F0A900C5037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D1712E2428F39300C5037E /* KycPluginIntegrationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KycPluginIntegrationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D171302428F39300C5037E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04D171322428F39300C5037E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04D171342428F39300C5037E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04D171372428F39300C5037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D171392428F39400C5037E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D1713C2428F39400C5037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D1713E2428F39400C5037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		066B9CF502069F75D7630265 /* Pods-IdenfyKycPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyKycPlugin.release.xcconfig"; path = "Target Support Files/Pods-IdenfyKycPlugin/Pods-IdenfyKycPlugin.release.xcconfig"; sourceTree = "<group>"; };
-		37D0EC11C46C243DFEB0C3E4 /* Pods-KycPluginIntegrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KycPluginIntegrationApp.release.xcconfig"; path = "Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp.release.xcconfig"; sourceTree = "<group>"; };
-		A4CB5061325152413B57FEEA /* Pods-IdenfyKycPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyKycPlugin.debug.xcconfig"; path = "Target Support Files/Pods-IdenfyKycPlugin/Pods-IdenfyKycPlugin.debug.xcconfig"; sourceTree = "<group>"; };
-		D675FBDB19B13AF441114F49 /* Pods_KycPluginIntegrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KycPluginIntegrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E339AF1DA967266673A770F1 /* Pods_IdenfyKycPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdenfyKycPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2630BE9F09A4E3F110D0B8FF /* Pods_IdenfyKycPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdenfyKycPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6730E07D79CB60C385F7884E /* Pods-KycPluginIntegrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KycPluginIntegrationApp.release.xcconfig"; path = "Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp.release.xcconfig"; sourceTree = "<group>"; };
+		803B22EE2F3AAE1C4C6A0D00 /* Pods-IdenfyKycPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyKycPlugin.release.xcconfig"; path = "Target Support Files/Pods-IdenfyKycPlugin/Pods-IdenfyKycPlugin.release.xcconfig"; sourceTree = "<group>"; };
+		83E55F8654C656EFB8B5B409 /* Pods-IdenfyKycPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyKycPlugin.debug.xcconfig"; path = "Target Support Files/Pods-IdenfyKycPlugin/Pods-IdenfyKycPlugin.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B31C31514017D834F05D91 /* Pods-KycPluginIntegrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KycPluginIntegrationApp.debug.xcconfig"; path = "Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C8CE07A94D54BC5053B0E51A /* Pods_KycPluginIntegrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KycPluginIntegrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				969AC55324A0EC970059410E /* Pods_IdenfyKycPlugin.framework in Frameworks */,
+				FC918028AE74BF3B81B3F6A8 /* Pods_IdenfyKycPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04080317243C97E8003F12FA /* Pods_KycPluginIntegrationApp.framework in Frameworks */,
 				04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */,
+				D954BD65A939CDEDC0A3A65A /* Pods_KycPluginIntegrationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +112,7 @@
 			children = (
 				040802F2243B755C003F12FA /* BorderedButton.swift */,
 				040802F3243B755C003F12FA /* IdenfyTakePhotoButton.swift */,
+				040802F4243B755C003F12FA /* IdenfyKycProviderPlugin.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -137,7 +136,7 @@
 				04D1712F2428F39300C5037E /* KycPluginIntegrationApp */,
 				04D171082428F0A900C5037E /* Products */,
 				90821CE72093E22B309A1009 /* Pods */,
-				9135B174082CE527E99D7426 /* Frameworks */,
+				3823C5A2F27BCB991A1AB006 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,7 +154,6 @@
 			children = (
 				040802F5243B755C003F12FA /* Assets */,
 				040802F1243B755C003F12FA /* Classes */,
-				040802F4243B755C003F12FA /* IdenfyKycProviderPlugin.swift */,
 				04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */,
 				04D1710B2428F0A900C5037E /* Info.plist */,
 			);
@@ -167,7 +165,6 @@
 			children = (
 				0408030F243B8B9E003F12FA /* SonectShopConfiguration.plist */,
 				04D171302428F39300C5037E /* AppDelegate.swift */,
-				04D171322428F39300C5037E /* SceneDelegate.swift */,
 				04D171342428F39300C5037E /* ViewController.swift */,
 				04D171362428F39300C5037E /* Main.storyboard */,
 				04D171392428F39400C5037E /* Assets.xcassets */,
@@ -177,24 +174,24 @@
 			path = KycPluginIntegrationApp;
 			sourceTree = "<group>";
 		};
+		3823C5A2F27BCB991A1AB006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2630BE9F09A4E3F110D0B8FF /* Pods_IdenfyKycPlugin.framework */,
+				C8CE07A94D54BC5053B0E51A /* Pods_KycPluginIntegrationApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		90821CE72093E22B309A1009 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A4CB5061325152413B57FEEA /* Pods-IdenfyKycPlugin.debug.xcconfig */,
-				066B9CF502069F75D7630265 /* Pods-IdenfyKycPlugin.release.xcconfig */,
-				02F71DD814EFADC04865C6B4 /* Pods-KycPluginIntegrationApp.debug.xcconfig */,
-				37D0EC11C46C243DFEB0C3E4 /* Pods-KycPluginIntegrationApp.release.xcconfig */,
+				83E55F8654C656EFB8B5B409 /* Pods-IdenfyKycPlugin.debug.xcconfig */,
+				803B22EE2F3AAE1C4C6A0D00 /* Pods-IdenfyKycPlugin.release.xcconfig */,
+				A5B31C31514017D834F05D91 /* Pods-KycPluginIntegrationApp.debug.xcconfig */,
+				6730E07D79CB60C385F7884E /* Pods-KycPluginIntegrationApp.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		9135B174082CE527E99D7426 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D675FBDB19B13AF441114F49 /* Pods_KycPluginIntegrationApp.framework */,
-				E339AF1DA967266673A770F1 /* Pods_IdenfyKycPlugin.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D1710F2428F0A900C5037E /* Build configuration list for PBXNativeTarget "IdenfyKycPlugin" */;
 			buildPhases = (
-				BB724B9542E98E5B925787EE /* [CP] Check Pods Manifest.lock */,
+				7036103B97EB340FFBD058BC /* [CP] Check Pods Manifest.lock */,
 				04D171022428F0A900C5037E /* Headers */,
 				04D171032428F0A900C5037E /* Sources */,
 				04D171042428F0A900C5037E /* Frameworks */,
@@ -234,12 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D171412428F39400C5037E /* Build configuration list for PBXNativeTarget "KycPluginIntegrationApp" */;
 			buildPhases = (
-				917240B74941A72A6F78A302 /* [CP] Check Pods Manifest.lock */,
+				83DACA7636CD0AEB7311A5E8 /* [CP] Check Pods Manifest.lock */,
 				04D1712A2428F39300C5037E /* Sources */,
 				04D1712B2428F39300C5037E /* Frameworks */,
 				04D1712C2428F39300C5037E /* Resources */,
-				B1AEF9E71134B41675A5D61E /* [CP] Embed Pods Frameworks */,
 				04080316243B8E19003F12FA /* Embed Frameworks */,
+				EF8E03C46AFFC9C3A54B995B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,7 +260,7 @@
 				TargetAttributes = {
 					04D171062428F0A900C5037E = {
 						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
+						LastSwiftMigration = 1140;
 					};
 					04D1712D2428F39300C5037E = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -316,46 +313,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		917240B74941A72A6F78A302 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KycPluginIntegrationApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1AEF9E71134B41675A5D61E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB724B9542E98E5B925787EE /* [CP] Check Pods Manifest.lock */ = {
+		7036103B97EB340FFBD058BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,6 +335,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		83DACA7636CD0AEB7311A5E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KycPluginIntegrationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8E03C46AFFC9C3A54B995B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -396,7 +393,6 @@
 			files = (
 				04D171352428F39300C5037E /* ViewController.swift in Sources */,
 				04D171312428F39300C5037E /* AppDelegate.swift in Sources */,
-				04D171332428F39300C5037E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,8 +568,9 @@
 		};
 		04D171102428F0A900C5037E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4CB5061325152413B57FEEA /* Pods-IdenfyKycPlugin.debug.xcconfig */;
+			baseConfigurationReference = 83E55F8654C656EFB8B5B409 /* Pods-IdenfyKycPlugin.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
@@ -582,6 +579,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MDFInternationalization-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MotionAnimator-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MotionInterchange-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Pulsator-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios-iOS9.0\"",
+					"\"${PODS_ROOT}/iDenfySDK/iDenfySDK/IdenfyLiveness\"",
+					"\"${PODS_ROOT}/sonect-shop-sdk-ios\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD-iOS9.0/JGProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MDFInternationalization-iOS9.0/MDFInternationalization.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents-iOS9.0/MaterialComponents.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MotionAnimator-iOS9.0/MotionAnimator.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MotionInterchange-iOS9.0/MotionInterchange.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Pulsator-iOS9.0/Pulsator.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-iOS9.0/ZIPFoundation.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios-iOS9.0/Lottie.framework/Headers\"",
+				);
 				INFOPLIST_FILE = IdenfyKycPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -595,16 +616,19 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		04D171112428F0A900C5037E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 066B9CF502069F75D7630265 /* Pods-IdenfyKycPlugin.release.xcconfig */;
+			baseConfigurationReference = 803B22EE2F3AAE1C4C6A0D00 /* Pods-IdenfyKycPlugin.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
@@ -613,6 +637,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MDFInternationalization-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MotionAnimator-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MotionInterchange-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Pulsator-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-iOS9.0\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios-iOS9.0\"",
+					"\"${PODS_ROOT}/iDenfySDK/iDenfySDK/IdenfyLiveness\"",
+					"\"${PODS_ROOT}/sonect-shop-sdk-ios\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD-iOS9.0/JGProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MDFInternationalization-iOS9.0/MDFInternationalization.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents-iOS9.0/MaterialComponents.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MotionAnimator-iOS9.0/MotionAnimator.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MotionInterchange-iOS9.0/MotionInterchange.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Pulsator-iOS9.0/Pulsator.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation-iOS9.0/ZIPFoundation.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios-iOS9.0/Lottie.framework/Headers\"",
+				);
 				INFOPLIST_FILE = IdenfyKycPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -626,19 +674,22 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		04D1713F2428F39400C5037E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02F71DD814EFADC04865C6B4 /* Pods-KycPluginIntegrationApp.debug.xcconfig */;
+			baseConfigurationReference = A5B31C31514017D834F05D91 /* Pods-KycPluginIntegrationApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
 				INFOPLIST_FILE = KycPluginIntegrationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -654,12 +705,13 @@
 		};
 		04D171402428F39400C5037E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37D0EC11C46C243DFEB0C3E4 /* Pods-KycPluginIntegrationApp.release.xcconfig */;
+			baseConfigurationReference = 6730E07D79CB60C385F7884E /* Pods-KycPluginIntegrationApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
 				INFOPLIST_FILE = KycPluginIntegrationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

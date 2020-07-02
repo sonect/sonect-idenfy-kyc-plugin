@@ -10,18 +10,6 @@ import UIKit
 import SonectShop
 import IdenfyKycPlugin
 
-class ScanCodePlugin: NSObject, SNCScanCodePlugin {
-    func viewController() -> UIViewController {
-        return UIViewController()
-    }
-    
-    func scan(_ handler: @escaping SNCScanCodeResultHandler) {
-    }
-    
-    func stop() {
-    }
-}
-
 class ViewController: UIViewController {
 
     @IBAction func startSdk(_ sender: Any) {
@@ -31,7 +19,6 @@ class ViewController: UIViewController {
                                              deviceId: "YOUR_DEVICE_ID")
         let configuration = SNCShopConfiguration.default()
         SNCSonectShop.kycProviderPlugin = IdenfyKycProviderPlugin()
-        SNCSonectShop.scanCodePlugin = ScanCodePlugin()
         SNCSonectShop.present(with: credentials,
                               configuration: configuration,
                               presenting: self)

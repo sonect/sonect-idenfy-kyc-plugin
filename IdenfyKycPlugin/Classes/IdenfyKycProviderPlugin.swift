@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import SonectShop
 import iDenfySDK
+import SonectCore
 
 struct ProfileIdentityVerificationStatus {
     let authenticationStatus: iDenfySDK.AuthenticationResultResponse?
