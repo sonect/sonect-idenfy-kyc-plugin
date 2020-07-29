@@ -60,7 +60,6 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
     public var platform: String = "idenfy"
     
     public func startKycCheck(_ presentingViewController: UIViewController, configuration: [AnyHashable : Any], handler: @escaping SNCKycCheckResultHandler) {
-        let countryCode = configuration["countryCode"] as! String
         let token = configuration["token"] as! String
         
         let idenfyLivenessUISettings = IdenfyLivenessUISettings()
@@ -92,7 +91,6 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
         let idenfySettings = IdenfyBuilder()
             .withUISettings(idenfyUISettings)
             .withCustomLocalStoryboard(true)
-            .withIssuingCountry(countryCode)
             .withAuthToken(token)
             .build()
         
