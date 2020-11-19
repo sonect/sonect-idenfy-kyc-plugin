@@ -1,26 +1,27 @@
 PODS:
-  - iDenfySDK/iDenfyLiveness (3.3.0):
+  - iDenfySDK/iDenfyLiveness (4.3.1):
     - JGProgressHUD
     - lottie-ios
     - MaterialComponents/ActivityIndicator
     - Pulsator
     - ZIPFoundation (~> 0.9)
-  - JGProgressHUD (2.1)
-  - lottie-ios (3.1.8)
-  - MaterialComponents/ActivityIndicator (110.1.0):
+  - JGProgressHUD (2.2)
+  - lottie-ios (3.1.9)
+  - MaterialComponents/ActivityIndicator (112.1.0):
     - MaterialComponents/Palettes
     - MaterialComponents/private/Application
     - MDFInternationalization
     - MotionAnimator (~> 2.0)
-  - MaterialComponents/Palettes (110.1.0)
-  - MaterialComponents/private/Application (110.1.0)
+  - MaterialComponents/Palettes (112.1.0)
+  - MaterialComponents/private/Application (112.1.0)
   - MDFInternationalization (2.0.0)
   - MotionAnimator (2.8.1):
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
   - Pulsator (0.6.0)
-  - sonect-core-ios (1.0.2)
-  - sonect-shop-sdk-ios (1.2.12)
+  - sonect-core-ios (1.0.8)
+  - sonect-shop-sdk-ios (1.6.2):
+    - sonect-core-ios
   - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
@@ -43,16 +44,16 @@ SPEC REPOS:
     - ZIPFoundation
 
 SPEC CHECKSUMS:
-  iDenfySDK: b4d1ac29ba67470fc31dff4d58dbd5ba0dc25977
-  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
-  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
-  MaterialComponents: 4cb6659322cfc38bb0a7e40fba1866daaefeb12c
+  iDenfySDK: f53ac2bebc2da0d28e738ca47cefc7a372604362
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  MaterialComponents: ba54523b921faa5c2adaaa692048c6b95a09263d
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
-  sonect-core-ios: 0a3613ab6835092e1167eb7eb68950805fc0f599
-  sonect-shop-sdk-ios: a725efdd11cbab7c743c143049d06e1b8098f27a
+  sonect-core-ios: 3126c3df431e7e7771b62fa3e48ad53ed4f28f34
+  sonect-shop-sdk-ios: 186d153516d099ad1934a2d47bbedb156bdedd0f
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
 PODFILE CHECKSUM: c9612a4299d1a54e99e3dff0a517d9ec191605d7
