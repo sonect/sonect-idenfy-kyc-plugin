@@ -15,6 +15,10 @@
 		04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; };
 		04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04080318243C97E8003F12FA /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		045C82BB24C024F400B0B337 /* IdenfyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04080301243B755C003F12FA /* IdenfyImages.xcassets */; };
+		045C82BC24C024F800B0B337 /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04080300243B755C003F12FA /* arrow@3x.png */; };
+		045C82BD24C024FD00B0B337 /* Zoom.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040802F6243B755C003F12FA /* Zoom.strings */; };
+		045C82BE24C0250000B0B337 /* Idenfy.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040802F8243B755C003F12FA /* Idenfy.strings */; };
 		04D1710C2428F0A900C5037E /* IdenfyKycPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04D171312428F39300C5037E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171302428F39300C5037E /* AppDelegate.swift */; };
 		04D171352428F39300C5037E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171342428F39300C5037E /* ViewController.swift */; };
@@ -302,9 +306,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045C82BE24C0250000B0B337 /* Idenfy.strings in Resources */,
 				04D1713D2428F39400C5037E /* LaunchScreen.storyboard in Resources */,
+				045C82BD24C024FD00B0B337 /* Zoom.strings in Resources */,
 				04080310243B8B9F003F12FA /* SonectShopConfiguration.plist in Resources */,
+				045C82BB24C024F400B0B337 /* IdenfyImages.xcassets in Resources */,
 				04D1713A2428F39400C5037E /* Assets.xcassets in Resources */,
+				045C82BC24C024F800B0B337 /* arrow@3x.png in Resources */,
 				04080311243B8D61003F12FA /* Idenfy.storyboard in Resources */,
 				04D171382428F39300C5037E /* Main.storyboard in Resources */,
 			);
@@ -694,7 +702,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.IdenfyKycPluginIntegrationApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.sdk.shop.integrationapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -716,7 +724,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.IdenfyKycPluginIntegrationApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.sdk.shop.integrationapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

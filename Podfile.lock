@@ -1,5 +1,12 @@
 PODS:
-  - iDenfySDK/iDenfyLiveness (4.3.1):
+  - iDenfySDK (4.3.1):
+    - iDenfySDK/iDenfySDK (= 4.3.1)
+    - JGProgressHUD
+    - lottie-ios
+    - MaterialComponents/ActivityIndicator
+    - Pulsator
+    - ZIPFoundation (~> 0.9)
+  - iDenfySDK/iDenfySDK (4.3.1):
     - JGProgressHUD
     - lottie-ios
     - MaterialComponents/ActivityIndicator
@@ -25,7 +32,7 @@ PODS:
   - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
-  - iDenfySDK/iDenfyLiveness
+  - iDenfySDK
   - sonect-core-ios
   - sonect-shop-sdk-ios
 
@@ -56,6 +63,6 @@ SPEC CHECKSUMS:
   sonect-shop-sdk-ios: 186d153516d099ad1934a2d47bbedb156bdedd0f
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: c9612a4299d1a54e99e3dff0a517d9ec191605d7
+PODFILE CHECKSUM: 909e49787bfa4201b753e51c08cde5ae4668bc29
 
 COCOAPODS: 1.9.1
