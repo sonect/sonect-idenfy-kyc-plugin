@@ -7,7 +7,7 @@ target 'IdenfyKycPlugin' do
   use_frameworks!
 
   # Pods for IdenfyKycPlugin
-  pod 'iDenfySDK/iDenfyLiveness'
+  pod 'iDenfySDK'
   pod 'sonect-core-ios'
 
 end
@@ -17,7 +17,7 @@ target 'KycPluginIntegrationApp' do
   use_frameworks!
 
   # Pods for KycPluginIntegrationApp
-  pod 'iDenfySDK/iDenfyLiveness'
+  pod 'iDenfySDK'
   pod 'sonect-shop-sdk-ios'
   pod 'sonect-core-ios'
 
