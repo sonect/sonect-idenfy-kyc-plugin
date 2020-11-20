@@ -60,7 +60,7 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
     public var platform: String = "idenfy"
     
     private var idenfyController: IdenfyController?
-    private var idenfyVC: UINavigationController?
+    private var idenfyViewController: UIViewController?
     
     public func startKycCheck(_ presentingViewController: UIViewController, configuration: [AnyHashable : Any], handler: @escaping SNCKycCheckResultHandler) {
         let countryCode = configuration["countryCode"] as! String
@@ -98,7 +98,7 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
             .build()
         
         let idenfyController = IdenfyController(idenfySettings: idenfySettings)
-        let idenfyVC = idenfyController.instantiateNavigationController()
+        let idenfyViewController = idenfyController.instantiateNavigationController()
         
         idenfyController.handleIDenfyCallbacks(
             onSuccess: { (response) in
@@ -109,7 +109,7 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
                 let result = IdenfyKycResult(verificationStatus: status)
                 handler(result)
                 
-                idenfyVC.dismiss(animated: true, completion: nil)
+                idenfyViewController.dismiss(animated: true, completion: nil)
         },
             onError: { (response) in
                 let status = ProfileIdentityVerificationStatus(
@@ -119,7 +119,7 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
                 let result = IdenfyKycResult(verificationStatus: status)
                 handler(result)
                 
-                idenfyVC.dismiss(animated: true, completion: nil)
+                idenfyViewController.dismiss(animated: true, completion: nil)
         },
             onUserExit: {
                 //User exited the SDK without completing identification process.
@@ -130,12 +130,12 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
                 let result = IdenfyKycResult(verificationStatus: status)
                 handler(result)
                 
-                idenfyVC.dismiss(animated: true, completion: nil)
+                idenfyViewController.dismiss(animated: true, completion: nil)
         })
         
-        presentingViewController.present(idenfyVC, animated: true, completion: nil)
+        presentingViewController.present(idenfyViewController, animated: true, completion: nil)
         
         self.idenfyController = idenfyController
-        self.idenfyVC = idenfyVC
+        self.idenfyViewController = idenfyViewController
     }
 }
