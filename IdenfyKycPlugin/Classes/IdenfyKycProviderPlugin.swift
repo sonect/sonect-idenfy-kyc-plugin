@@ -59,22 +59,14 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
     
     public var platform: String = "idenfy"
     
+    private var idenfyController: IdenfyController?
+    private var idenfyViewController: UIViewController?
+    
     public func startKycCheck(_ presentingViewController: UIViewController, configuration: [AnyHashable : Any], handler: @escaping SNCKycCheckResultHandler) {
         let countryCode = configuration["countryCode"] as! String
         let token = configuration["token"] as! String
         
-        let idenfyLivenessUISettings = IdenfyLivenessUISettings()
-        idenfyLivenessUISettings.livenessFeedbackBackgroundColor = flamingoColor
-        idenfyLivenessUISettings.livenessFeedbackFontColor = whiteColor
-        idenfyLivenessUISettings.livenessFrameBackgroundColor = blackColor
-        idenfyLivenessUISettings.livenessIdentificationOvalProgressColor1 = flamingoColor
-        idenfyLivenessUISettings.livenessIdentificationOvalProgressColor2 = flamingoColor
-        idenfyLivenessUISettings.livenessIdentificationProgressStrokeColor = flamingoColor
-        idenfyLivenessUISettings.livenessIdentificationProgressStrokeWidth = 8
-        idenfyLivenessUISettings.livenessIdentificationProgressRadialOffset = 16
-        
         let idenfyUISettings = IdenfyUIBuilder()
-            .withLivenessUISettings(livenessUISettings: idenfyLivenessUISettings)
             .withCustomDocumentBorderColor(borderColor: .clear)
             .build()
         
@@ -86,10 +78,19 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
         identificationSessionSettings.idenfyFaceSessionCameraInformationTitleColor = whiteColor
         identificationSessionSettings.idenfyDocumentsCameraSessionInformationTitleColor = whiteColor
         identificationSessionSettings.idenfyDocumentsResultsInformationTitleColor = whiteColor
-        
         idenfyUISettings.setIdentificationSessionUISettings(identificationSessionUISettings: identificationSessionSettings)
         
+        let idenfyIdentificationResults = IdenfyIdentificationResultsSettings()
+        idenfyIdentificationResults.isSuccessResultsViewVisible = false
+        idenfyIdentificationResults.isErrorResultsViewVisible = false
+        idenfyIdentificationResults.isRetryErrorResultsViewVisible = false
+        idenfyIdentificationResults.isRetryingIdentificationAvailable = false
+        idenfyIdentificationResults.isAutoDismissOnSuccessEvent = false
+        idenfyIdentificationResults.isAutoDismissOnErrorEvent = false
+        idenfyIdentificationResults.isAutoDismissOnUserExitEvent = false
+        
         let idenfySettings = IdenfyBuilder()
+            .withCustomIdentificationResultsSettings(idenfyIdentificationResults)
             .withUISettings(idenfyUISettings)
             .withCustomLocalStoryboard(true)
             .withIssuingCountry(countryCode)
@@ -97,34 +98,49 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
             .build()
         
         let idenfyController = IdenfyController(idenfySettings: idenfySettings)
+        let idenfyViewController = idenfyController.instantiateNavigationController()
+        
         idenfyController.handleIDenfyCallbacks(
-            onSuccess: { (response) in
+            onSuccess: {[weak self] (response) in
                 let status = ProfileIdentityVerificationStatus(
                     authenticationStatus: response,
                     errorStatus: nil,
                     userExit: nil)
-                let result = IdenfyKycResult(verificationStatus: status)
-                handler(result)
-        },
-            onError: { (response) in
+                self?.dismiss(status: status, handler: handler)
+            },
+            onError: {[weak self] (response) in
                 let status = ProfileIdentityVerificationStatus(
                     authenticationStatus: nil,
                     errorStatus: response,
                     userExit: nil)
-                let result = IdenfyKycResult(verificationStatus: status)
-                handler(result)
-        },
-            onUserExit: {
+                self?.dismiss(status: status, handler: handler)
+            },
+            onUserExit: { [weak self] in
                 //User exited the SDK without completing identification process.
                 let status = ProfileIdentityVerificationStatus(
                     authenticationStatus: nil,
                     errorStatus: nil,
                     userExit: true)
-                let result = IdenfyKycResult(verificationStatus: status)
-                handler(result)
+                self?.dismiss(status: status, handler: handler)
         })
         
-        let idenfyVC = idenfyController.instantiateNavigationController()
-        presentingViewController.present(idenfyVC, animated: true, completion: nil)
+        presentingViewController.present(idenfyViewController, animated: true, completion: nil)
+        
+        self.idenfyController = idenfyController
+        self.idenfyViewController = idenfyViewController
+    }
+    
+    private func dismiss(status: ProfileIdentityVerificationStatus, handler: @escaping SNCKycCheckResultHandler) {
+        guard let idenfyViewController = idenfyViewController else {
+            return
+        }
+        
+        let result = IdenfyKycResult(verificationStatus: status)
+        handler(result)
+        
+        idenfyViewController.dismiss(animated: true, completion: { [weak self] in
+            self?.idenfyController = nil
+            self?.idenfyViewController = nil
+        })
     }
 }
