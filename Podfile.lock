@@ -27,12 +27,12 @@ PODS:
   - MotionInterchange (1.6.0)
   - Pulsator (0.6.0)
   - sonect-core-ios (1.0.8)
-  - sonect-shop-sdk-ios (1.6.2):
+  - sonect-shop-sdk-ios (1.8.1):
     - sonect-core-ios
   - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
-  - iDenfySDK
+  - iDenfySDK (= 4.3.1)
   - sonect-core-ios
   - sonect-shop-sdk-ios
 
@@ -60,9 +60,9 @@ SPEC CHECKSUMS:
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
   sonect-core-ios: 3126c3df431e7e7771b62fa3e48ad53ed4f28f34
-  sonect-shop-sdk-ios: 186d153516d099ad1934a2d47bbedb156bdedd0f
+  sonect-shop-sdk-ios: 385d3ca23e440af6c1ccda6122c35ba68423314b
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: 909e49787bfa4201b753e51c08cde5ae4668bc29
+PODFILE CHECKSUM: 627dda041717375902e2455007268688caba2e36
 
 COCOAPODS: 1.9.1
