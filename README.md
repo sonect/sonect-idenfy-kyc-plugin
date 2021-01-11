@@ -7,7 +7,7 @@ Contact support@sonect.ch if additional info is needed.
 ## Installation: 
 
 Via dependency managers:
-- Cocoapods: `UNAVAILABLE AT PRESENT`
+- Cocoapods: `pod 'sonect-idenfy-kyc-plugin'`
 - Carthage: `UNAVAILABLE AT PRESENT`
 - Manual: Get the [latest release](https://github.com/sonect/sonect-idenfy-kyc-plugin/releases/latest/download/IdenfyKycPlugin.zip
 ) and integrate it by unzipping the file and drag and dropping it into your project structure. 
