@@ -5,47 +5,12 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000287">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000316">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: carthage" time="71.616776">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="2: carthage" time="0.566075">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="3: zip" time="0.047217">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="4: get_version_number" time="0.032739">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="5: set_github_release" time="6.924187">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="6: git_add" time="0.094548">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="7: git_commit" time="0.082491">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="6.904404">
+      <testcase classname="fastlane.lanes" name="1: cd .. &amp;&amp; ./carthage-build.sh build --platform iOS --use-xcframeworks --no-skip-current" time="46.886001">
         
       </testcase>
     

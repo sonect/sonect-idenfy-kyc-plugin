@@ -19,10 +19,12 @@ platform :ios do
 
   desc "Makes a public distribution."
   lane :distribute do
-    carthage(
-      command: "build",
-      platform: "iOS",
-      no_skip_current: true)
+    # carthage(
+    #   command: "build",
+    #   platform: "iOS",
+    #   no_skip_current: true)
+
+    sh("cd .. && ./carthage-build.sh build --platform iOS --no-skip-current")
 
     carthage(
       command: "archive",
