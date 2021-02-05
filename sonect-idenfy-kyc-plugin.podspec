@@ -23,6 +23,11 @@ Pod::Spec.new do |spec|
     
     spec.dependency 'iDenfySDK'
     spec.dependency 'sonect-core-ios'
+    
+    spec.pod_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+    spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   end
   
