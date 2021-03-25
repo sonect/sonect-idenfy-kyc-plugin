@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "sonect-idenfy-kyc-plugin"
-    spec.version      = "1.2.0"
+    spec.version      = "1.3.0"
     spec.summary      = "Sonect Scandit Scan Plugin"
     spec.description  = <<-DESC
     This is the Sonect Idenfy KYC Plugin public podspec. 
@@ -23,11 +23,6 @@ Pod::Spec.new do |spec|
     
     spec.dependency 'iDenfySDK'
     spec.dependency 'sonect-core-ios'
-    
-    spec.pod_target_xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    }
-    spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
+  
   end
   

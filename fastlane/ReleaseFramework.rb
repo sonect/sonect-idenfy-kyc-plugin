@@ -25,6 +25,7 @@ platform :ios do
         commit_and_push(message)
 
         version_bump_podspec(path: podspec, version_number: version)
+        pod_push(path: podspec)
     end
     
     def commit_and_push(message) 
