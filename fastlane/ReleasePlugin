@@ -23,8 +23,6 @@ platform :ios do
     
         message = "Update latest " + framework + " build"
         commit_and_push(message)
-
-        xcversion(version: "~> 12.0")
     end
     
     def commit_and_push(message) 
