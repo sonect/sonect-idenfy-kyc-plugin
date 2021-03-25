@@ -1,6 +1,6 @@
 platform :ios do
 
-    def public_release(workspace, framework, repo)
+    def public_release(workspace, framework, repo, podspec)
         xcversion(version: "11.7")
 
         cocoapods_archive = archive_framework_for_cocoapods(workspace, framework)
@@ -23,6 +23,8 @@ platform :ios do
     
         message = "Update latest " + framework + " build"
         commit_and_push(message)
+
+        version_bump_podspec(path: podspec, version_number: version)
     end
     
     def commit_and_push(message) 

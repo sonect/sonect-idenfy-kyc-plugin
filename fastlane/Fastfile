@@ -20,6 +20,9 @@ platform :ios do
   desc "Makes a public distribution."
   lane :distribute do
     import("ReleaseFramework.rb")
-    public_release("IdenfyKycPlugin.xcworkspace", "IdenfyKycPlugin", "sonect/sonect-idenfy-kyc-plugin")
+    public_release("IdenfyKycPlugin.xcworkspace", 
+                   "IdenfyKycPlugin", 
+                   "sonect/sonect-idenfy-kyc-plugin", 
+                   "sonect-idenfy-kyc-plugin.podspec")
   end
 end
