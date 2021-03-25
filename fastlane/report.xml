@@ -5,42 +5,57 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000465">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000429">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: create_xcframework" time="50.384786">
+      <testcase classname="fastlane.lanes" name="01: create_xcframework" time="54.664005">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: ditto -c -k --sequesterRsrc --keepParent ../Build/XCFrameworks/IdenfyKycPlugin.xcframework ../IdenfyKycPlugin_Cocoapods.framework.zip" time="0.038794">
+      <testcase classname="fastlane.lanes" name="02: ditto -c -k --sequesterRsrc --keepParent ../Build/XCFrameworks/IdenfyKycPlugin.xcframework ../IdenfyKycPlugin_Cocoapods.framework.zip" time="0.039348">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: cd .. &amp;&amp; ./carthage-build.sh build --platform iOS --no-skip-current" time="66.606912">
+      <testcase classname="fastlane.lanes" name="03: cd .. &amp;&amp; ./carthage-build.sh build --platform iOS --no-skip-current" time="49.513688">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: carthage" time="0.497204">
+      <testcase classname="fastlane.lanes" name="04: carthage" time="0.286799">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: get_version_number" time="0.198327">
+      <testcase classname="fastlane.lanes" name="05: get_version_number" time="0.203508">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: set_github_release" time="8.433683">
+      <testcase classname="fastlane.lanes" name="06: set_github_release" time="0.588422">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: cd .. &amp;&amp; rm IdenfyKycPlugin_Cocoapods.framework.zip IdenfyKycPlugin.framework.zip" time="0.009674">
+      <testcase classname="fastlane.lanes" name="07: cd .. &amp;&amp; rm IdenfyKycPlugin_Cocoapods.framework.zip IdenfyKycPlugin.framework.zip" time="0.008859">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: git_add" time="0.024123">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: git_commit" time="0.051614">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: push_to_git_remote" time="2.833381">
         
       </testcase>
     
