@@ -5,67 +5,17 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000477">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000262">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: xcversion" time="0.717977">
+      <testcase classname="fastlane.lanes" name="1: xcversion" time="14.556458">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: create_xcframework" time="49.377161">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="03: ditto -c -k --sequesterRsrc --keepParent ../Build/XCFrameworks/IdenfyKycPlugin.xcframework ../IdenfyKycPlugin_Cocoapods.framework.zip" time="0.041351">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="04: cd .. &amp;&amp; ./carthage-build.sh build --platform iOS --no-skip-current" time="48.868828">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="05: carthage" time="0.283572">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="06: get_version_number" time="0.282994">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="07: set_github_release" time="0.553211">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="08: cd .. &amp;&amp; rm IdenfyKycPlugin_Cocoapods.framework.zip IdenfyKycPlugin.framework.zip" time="0.008436">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="09: git_add" time="0.018115">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="10: git_commit" time="0.030716">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="11: push_to_git_remote" time="2.702227">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="12: version_bump_podspec" time="0.00384">
+      <testcase classname="fastlane.lanes" name="2: pod_push" time="68.081837">
         
       </testcase>
     
