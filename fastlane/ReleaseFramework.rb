@@ -21,11 +21,11 @@ platform :ios do
           [cocoapods_archive, cathage_archive]
         )
     
-        message = "Update latest " + framework + " build"
-        commit_and_push(message)
-
         version_bump_podspec(path: podspec, version_number: version)
         pod_push
+
+        message = "Update latest " + framework + " build"
+        commit_and_push(message)
     end
     
     def commit_and_push(message) 
