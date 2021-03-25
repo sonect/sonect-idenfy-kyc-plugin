@@ -39,6 +39,7 @@ class IdenfyKycResult: NSObject, SNCKycCheckResult {
             case .REVIEWING:
                 status = .pending
             case .DENIED: fallthrough
+            case .UNKNOWN: fallthrough
             case .SUSPECTED:
                 status = .failure
                 error = NSError(domain: "ch.sonect.idenfyKycPlugin",
