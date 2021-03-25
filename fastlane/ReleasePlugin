@@ -1,6 +1,8 @@
 platform :ios do
 
     def public_release(workspace, framework, repo)
+        xcversion(version: "11.7")
+
         cocoapods_archive = archive_framework_for_cocoapods(workspace, framework)
         cathage_archive = archive_framework_for_carthage(framework)
     
@@ -21,6 +23,8 @@ platform :ios do
     
         message = "Update latest " + framework + " build"
         commit_and_push(message)
+
+        xcversion(version: "~> 12.0")
     end
     
     def commit_and_push(message) 
