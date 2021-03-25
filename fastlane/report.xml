@@ -5,47 +5,42 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000284">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000465">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: cd .. &amp;&amp; ./carthage-build.sh build --platform iOS --no-skip-current" time="45.222031">
+      <testcase classname="fastlane.lanes" name="1: create_xcframework" time="50.384786">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: carthage" time="0.338258">
+      <testcase classname="fastlane.lanes" name="2: ditto -c -k --sequesterRsrc --keepParent ../Build/XCFrameworks/IdenfyKycPlugin.xcframework ../IdenfyKycPlugin_Cocoapods.framework.zip" time="0.038794">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: zip" time="0.061306">
+      <testcase classname="fastlane.lanes" name="3: cd .. &amp;&amp; ./carthage-build.sh build --platform iOS --no-skip-current" time="66.606912">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: get_version_number" time="0.061079">
+      <testcase classname="fastlane.lanes" name="4: carthage" time="0.497204">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: set_github_release" time="5.463877">
+      <testcase classname="fastlane.lanes" name="5: get_version_number" time="0.198327">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: git_add" time="0.091577">
+      <testcase classname="fastlane.lanes" name="6: set_github_release" time="8.433683">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: git_commit" time="0.080877">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="8: push_to_git_remote" time="7.675022">
+      <testcase classname="fastlane.lanes" name="7: cd .. &amp;&amp; rm IdenfyKycPlugin_Cocoapods.framework.zip IdenfyKycPlugin.framework.zip" time="0.009674">
         
       </testcase>
     
