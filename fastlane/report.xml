@@ -5,17 +5,17 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000262">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000334">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: xcversion" time="14.556458">
+      <testcase classname="fastlane.lanes" name="1: cd .. &amp;&amp; ./carthage-build.sh build --platform iOS --no-skip-current" time="67.975142">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: pod_push" time="68.081837">
+      <testcase classname="fastlane.lanes" name="2: carthage" time="0.600337">
         
       </testcase>
     
