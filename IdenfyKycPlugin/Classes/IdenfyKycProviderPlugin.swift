@@ -65,7 +65,7 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
     
     public func startKycCheck(_ presentingViewController: UIViewController, configuration: [AnyHashable : Any], handler: @escaping SNCKycCheckResultHandler) {
         guard let token = configuration["token"] as? String else {
-            fatalError("Missing tokrn in configuration parameters.")
+            fatalError("Missing token in configuration parameters.")
         }
         
         let idenfyUISettings = IdenfyUIBuilderV2()
