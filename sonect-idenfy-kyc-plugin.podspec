@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     spec.source_files       = 'IdenfyKycPlugin/*.swift', 'IdenfyKycPlugin/Classes/*.swift'
     spec.swift_version = '5.0'
     
-    spec.dependency 'iDenfySDK'
+    spec.dependency 'iDenfySDK', '~> 6.3.0'
     spec.dependency 'sonect-core-ios'
   
   end
