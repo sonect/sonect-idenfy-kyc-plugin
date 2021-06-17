@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "sonect-idenfy-kyc-plugin"
-    spec.version      = "1.3.0"
+    spec.version      = "2.0.0"
     spec.summary      = "Sonect Scandit Scan Plugin"
     spec.description  = <<-DESC
     This is the Sonect Idenfy KYC Plugin public podspec. 
