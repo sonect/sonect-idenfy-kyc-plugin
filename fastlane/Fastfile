@@ -24,6 +24,8 @@ platform :ios do
     #   platform: "iOS",
     #   no_skip_current: true)
 
+    xcversion(version: "11.7")
+
     sh("cd .. && ./carthage-build.sh build --platform iOS --no-skip-current")
 
     carthage(
