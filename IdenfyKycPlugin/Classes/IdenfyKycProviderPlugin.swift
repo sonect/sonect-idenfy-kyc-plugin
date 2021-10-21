@@ -69,12 +69,11 @@ public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
         }
         
         let idenfyUISettings = IdenfyUIBuilderV2()
-            .withInstructions(true)
+            .withInstructions(.dialog)
             .build()
                  
         let idenfySettings = IdenfyBuilderV2()
             .withUISettingsV2(idenfyUISettings)
-            .withDocumentIssuingCountrySkipped()
             .withAuthToken(token)
             .build()
         
