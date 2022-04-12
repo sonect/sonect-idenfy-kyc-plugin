@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '10.0'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'IdenfyKycPlugin' do
@@ -7,7 +7,7 @@ target 'IdenfyKycPlugin' do
   use_frameworks!
 
   # Pods for IdenfyKycPlugin
-  pod 'iDenfySDK'
+  pod 'iDenfySDK', '~> 7.1.1'
   pod 'sonect-core-ios'
 
 end
@@ -17,7 +17,7 @@ target 'KycPluginIntegrationApp' do
   use_frameworks!
 
   # Pods for KycPluginIntegrationApp
-  pod 'iDenfySDK'
+  pod 'iDenfySDK', '~> 7.1.1'
   pod 'sonect-shop-sdk-ios'
   pod 'sonect-core-ios'
 
