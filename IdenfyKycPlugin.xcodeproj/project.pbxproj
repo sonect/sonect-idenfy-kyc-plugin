@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,15 @@
 		04080310243B8B9F003F12FA /* SonectShopConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0408030F243B8B9E003F12FA /* SonectShopConfiguration.plist */; };
 		04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; };
 		04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04080318243C97E8003F12FA /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04080318243C97E8003F12FA /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D1710C2428F0A900C5037E /* IdenfyKycPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04D171312428F39300C5037E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171302428F39300C5037E /* AppDelegate.swift */; };
 		04D171352428F39300C5037E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171342428F39300C5037E /* ViewController.swift */; };
 		04D171382428F39300C5037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D171362428F39300C5037E /* Main.storyboard */; };
 		04D1713A2428F39400C5037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D171392428F39400C5037E /* Assets.xcassets */; };
 		04D1713D2428F39400C5037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1713B2428F39400C5037E /* LaunchScreen.storyboard */; };
-		D954BD65A939CDEDC0A3A65A /* Pods_KycPluginIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CE07A94D54BC5053B0E51A /* Pods_KycPluginIntegrationApp.framework */; };
-		FC918028AE74BF3B81B3F6A8 /* Pods_IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2630BE9F09A4E3F110D0B8FF /* Pods_IdenfyKycPlugin.framework */; };
+		42A71961CEB7666BBF0175D2 /* Pods_KycPluginIntegrationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1B03FDC5BBE490ABF29A00 /* Pods_KycPluginIntegrationApp.framework */; };
+		7B9B16698B38EE379A050F0D /* Pods_IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C522BDA4934ECA103EE740 /* Pods_IdenfyKycPlugin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04080318243C97E8003F12FA /* (null) in Embed Frameworks */,
+				04080318243C97E8003F12FA /* BuildFile in Embed Frameworks */,
 				04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -60,12 +60,12 @@
 		04D171392428F39400C5037E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D1713C2428F39400C5037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D1713E2428F39400C5037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2630BE9F09A4E3F110D0B8FF /* Pods_IdenfyKycPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdenfyKycPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6730E07D79CB60C385F7884E /* Pods-KycPluginIntegrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KycPluginIntegrationApp.release.xcconfig"; path = "Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp.release.xcconfig"; sourceTree = "<group>"; };
-		803B22EE2F3AAE1C4C6A0D00 /* Pods-IdenfyKycPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyKycPlugin.release.xcconfig"; path = "Target Support Files/Pods-IdenfyKycPlugin/Pods-IdenfyKycPlugin.release.xcconfig"; sourceTree = "<group>"; };
-		83E55F8654C656EFB8B5B409 /* Pods-IdenfyKycPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyKycPlugin.debug.xcconfig"; path = "Target Support Files/Pods-IdenfyKycPlugin/Pods-IdenfyKycPlugin.debug.xcconfig"; sourceTree = "<group>"; };
-		A5B31C31514017D834F05D91 /* Pods-KycPluginIntegrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KycPluginIntegrationApp.debug.xcconfig"; path = "Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp.debug.xcconfig"; sourceTree = "<group>"; };
-		C8CE07A94D54BC5053B0E51A /* Pods_KycPluginIntegrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KycPluginIntegrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52549DDAD1D8AB2C8F0D717F /* Pods-IdenfyKycPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyKycPlugin.debug.xcconfig"; path = "Target Support Files/Pods-IdenfyKycPlugin/Pods-IdenfyKycPlugin.debug.xcconfig"; sourceTree = "<group>"; };
+		5C5E998D3C08310043E7B810 /* Pods-IdenfyKycPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyKycPlugin.release.xcconfig"; path = "Target Support Files/Pods-IdenfyKycPlugin/Pods-IdenfyKycPlugin.release.xcconfig"; sourceTree = "<group>"; };
+		629E9804E3913C64898F1720 /* Pods-KycPluginIntegrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KycPluginIntegrationApp.debug.xcconfig"; path = "Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1B03FDC5BBE490ABF29A00 /* Pods_KycPluginIntegrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KycPluginIntegrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C522BDA4934ECA103EE740 /* Pods_IdenfyKycPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdenfyKycPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2690947476C14C2CFEA80D /* Pods-KycPluginIntegrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KycPluginIntegrationApp.release.xcconfig"; path = "Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC918028AE74BF3B81B3F6A8 /* Pods_IdenfyKycPlugin.framework in Frameworks */,
+				7B9B16698B38EE379A050F0D /* Pods_IdenfyKycPlugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */,
-				D954BD65A939CDEDC0A3A65A /* Pods_KycPluginIntegrationApp.framework in Frameworks */,
+				42A71961CEB7666BBF0175D2 /* Pods_KycPluginIntegrationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 				04D1712F2428F39300C5037E /* KycPluginIntegrationApp */,
 				04D171082428F0A900C5037E /* Products */,
 				90821CE72093E22B309A1009 /* Pods */,
-				3823C5A2F27BCB991A1AB006 /* Frameworks */,
+				EC8E0F76845F2B41F9C77CCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,24 +141,24 @@
 			path = KycPluginIntegrationApp;
 			sourceTree = "<group>";
 		};
-		3823C5A2F27BCB991A1AB006 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2630BE9F09A4E3F110D0B8FF /* Pods_IdenfyKycPlugin.framework */,
-				C8CE07A94D54BC5053B0E51A /* Pods_KycPluginIntegrationApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		90821CE72093E22B309A1009 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				83E55F8654C656EFB8B5B409 /* Pods-IdenfyKycPlugin.debug.xcconfig */,
-				803B22EE2F3AAE1C4C6A0D00 /* Pods-IdenfyKycPlugin.release.xcconfig */,
-				A5B31C31514017D834F05D91 /* Pods-KycPluginIntegrationApp.debug.xcconfig */,
-				6730E07D79CB60C385F7884E /* Pods-KycPluginIntegrationApp.release.xcconfig */,
+				52549DDAD1D8AB2C8F0D717F /* Pods-IdenfyKycPlugin.debug.xcconfig */,
+				5C5E998D3C08310043E7B810 /* Pods-IdenfyKycPlugin.release.xcconfig */,
+				629E9804E3913C64898F1720 /* Pods-KycPluginIntegrationApp.debug.xcconfig */,
+				FE2690947476C14C2CFEA80D /* Pods-KycPluginIntegrationApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC8E0F76845F2B41F9C77CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C522BDA4934ECA103EE740 /* Pods_IdenfyKycPlugin.framework */,
+				6D1B03FDC5BBE490ABF29A00 /* Pods_KycPluginIntegrationApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D1710F2428F0A900C5037E /* Build configuration list for PBXNativeTarget "IdenfyKycPlugin" */;
 			buildPhases = (
-				7036103B97EB340FFBD058BC /* [CP] Check Pods Manifest.lock */,
+				7839DF245DC4C817F77CA622 /* [CP] Check Pods Manifest.lock */,
 				04D171022428F0A900C5037E /* Headers */,
 				04D171032428F0A900C5037E /* Sources */,
 				04D171042428F0A900C5037E /* Frameworks */,
@@ -198,12 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D171412428F39400C5037E /* Build configuration list for PBXNativeTarget "KycPluginIntegrationApp" */;
 			buildPhases = (
-				83DACA7636CD0AEB7311A5E8 /* [CP] Check Pods Manifest.lock */,
+				59E3BB2E1A2B0D31738EB49F /* [CP] Check Pods Manifest.lock */,
 				04D1712A2428F39300C5037E /* Sources */,
 				04D1712B2428F39300C5037E /* Frameworks */,
 				04D1712C2428F39300C5037E /* Resources */,
 				04080316243B8E19003F12FA /* Embed Frameworks */,
-				EF8E03C46AFFC9C3A54B995B /* [CP] Embed Pods Frameworks */,
+				4E3DF1121CF5972397785A93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,29 +279,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7036103B97EB340FFBD058BC /* [CP] Check Pods Manifest.lock */ = {
+		4E3DF1121CF5972397785A93 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IdenfyKycPlugin-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83DACA7636CD0AEB7311A5E8 /* [CP] Check Pods Manifest.lock */ = {
+		59E3BB2E1A2B0D31738EB49F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,21 +318,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF8E03C46AFFC9C3A54B995B /* [CP] Embed Pods Frameworks */ = {
+		7839DF245DC4C817F77CA622 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IdenfyKycPlugin-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KycPluginIntegrationApp/Pods-KycPluginIntegrationApp-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -441,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -496,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -508,7 +508,7 @@
 		};
 		04D171102428F0A900C5037E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83E55F8654C656EFB8B5B409 /* Pods-IdenfyKycPlugin.debug.xcconfig */;
+			baseConfigurationReference = 52549DDAD1D8AB2C8F0D717F /* Pods-IdenfyKycPlugin.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -547,7 +547,7 @@
 				);
 				INFOPLIST_FILE = IdenfyKycPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,7 +569,7 @@
 		};
 		04D171112428F0A900C5037E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 803B22EE2F3AAE1C4C6A0D00 /* Pods-IdenfyKycPlugin.release.xcconfig */;
+			baseConfigurationReference = 5C5E998D3C08310043E7B810 /* Pods-IdenfyKycPlugin.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -608,7 +608,7 @@
 				);
 				INFOPLIST_FILE = IdenfyKycPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -629,13 +629,13 @@
 		};
 		04D1713F2428F39400C5037E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B31C31514017D834F05D91 /* Pods-KycPluginIntegrationApp.debug.xcconfig */;
+			baseConfigurationReference = 629E9804E3913C64898F1720 /* Pods-KycPluginIntegrationApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
 				INFOPLIST_FILE = KycPluginIntegrationApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -651,13 +651,13 @@
 		};
 		04D171402428F39400C5037E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6730E07D79CB60C385F7884E /* Pods-KycPluginIntegrationApp.release.xcconfig */;
+			baseConfigurationReference = FE2690947476C14C2CFEA80D /* Pods-KycPluginIntegrationApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
 				INFOPLIST_FILE = KycPluginIntegrationApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,35 +1,22 @@
 PODS:
-  - iDenfySDK (6.6.4):
-    - iDenfySDK/iDenfySDK (= 6.6.4)
+  - iDenfySDK (7.1.1):
+    - iDenfySDK/iDenfySDK (= 7.1.1)
     - JGProgressHUD
     - lottie-ios
-    - MaterialComponents/ActivityIndicator
     - ZIPFoundation (= 0.9.11)
-  - iDenfySDK/iDenfySDK (6.6.4):
+  - iDenfySDK/iDenfySDK (7.1.1):
     - JGProgressHUD
     - lottie-ios
-    - MaterialComponents/ActivityIndicator
     - ZIPFoundation (= 0.9.11)
   - JGProgressHUD (2.2)
   - lottie-ios (3.2.3)
-  - MaterialComponents/ActivityIndicator (112.1.0):
-    - MaterialComponents/Palettes
-    - MaterialComponents/private/Application
-    - MDFInternationalization
-    - MotionAnimator (~> 2.0)
-  - MaterialComponents/Palettes (112.1.0)
-  - MaterialComponents/private/Application (112.1.0)
-  - MDFInternationalization (2.0.0)
-  - MotionAnimator (2.8.1):
-    - MotionInterchange (~> 1.6)
-  - MotionInterchange (1.6.0)
   - sonect-core-ios (1.4.5)
   - sonect-shop-sdk-ios (1.15.3):
     - sonect-core-ios (~> 1.4.5)
   - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
-  - iDenfySDK
+  - iDenfySDK (~> 7.1.1)
   - sonect-core-ios
   - sonect-shop-sdk-ios
 
@@ -38,26 +25,18 @@ SPEC REPOS:
     - iDenfySDK
     - JGProgressHUD
     - lottie-ios
-    - MaterialComponents
-    - MDFInternationalization
-    - MotionAnimator
-    - MotionInterchange
     - sonect-core-ios
     - sonect-shop-sdk-ios
     - ZIPFoundation
 
 SPEC CHECKSUMS:
-  iDenfySDK: fef9895a69bd3f868ecd6dd0d6f1d097b406179e
+  iDenfySDK: 8b469a86f628b5df3fdf87e9a02886468784bcf7
   JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
-  MaterialComponents: ba54523b921faa5c2adaaa692048c6b95a09263d
-  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
-  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
-  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   sonect-core-ios: cd02d778d93b80d52525d1b2fcc99cc28a1773cd
   sonect-shop-sdk-ios: f9049e291e4c4d14a1b730c1cac6aebfe3747f5a
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: db2857788f63de46dd331d504c4bc1b423d6506b
+PODFILE CHECKSUM: 88c6d12b038377205fff0b287acc480806e8fe97
 
 COCOAPODS: 1.10.1
