@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,7 @@
 		04080310243B8B9F003F12FA /* SonectShopConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0408030F243B8B9E003F12FA /* SonectShopConfiguration.plist */; };
 		04080312243B8E19003F12FA /* IdenfyKycPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; };
 		04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D171072428F0A900C5037E /* IdenfyKycPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04080318243C97E8003F12FA /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04080318243C97E8003F12FA /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D1710C2428F0A900C5037E /* IdenfyKycPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D1710A2428F0A900C5037E /* IdenfyKycPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04D171312428F39300C5037E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171302428F39300C5037E /* AppDelegate.swift */; };
 		04D171352428F39300C5037E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D171342428F39300C5037E /* ViewController.swift */; };
@@ -39,7 +39,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04080318243C97E8003F12FA /* BuildFile in Embed Frameworks */,
+				04080318243C97E8003F12FA /* (null) in Embed Frameworks */,
 				04080313243B8E19003F12FA /* IdenfyKycPlugin.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -515,7 +515,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -553,7 +553,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.IdenfyKycPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -576,7 +576,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 15;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VJ8Q6FKHZ8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -614,7 +614,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.sonect.IdenfyKycPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
