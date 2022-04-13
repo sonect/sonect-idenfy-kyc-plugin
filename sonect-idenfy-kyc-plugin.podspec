@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "sonect-idenfy-kyc-plugin"
-    spec.version      = "2.0.0"
+    spec.version      = "3.0.0"
     spec.summary      = "Sonect Scandit Scan Plugin"
     spec.description  = <<-DESC
     This is the Sonect Idenfy KYC Plugin public podspec. 
@@ -16,12 +16,12 @@ Pod::Spec.new do |spec|
                       LICENSE
                  }
     spec.author             = { "sonect" => "marko.hlebar@sonect.ch" }
-    spec.platform     = :ios, "10.3"
+    spec.platform     = :ios, "10.0"
     spec.source       = { :git => "https://github.com/sonect/sonect-idenfy-kyc-plugin.git", :tag => spec.version }
     spec.source_files       = 'IdenfyKycPlugin/*.swift', 'IdenfyKycPlugin/Classes/*.swift'
     spec.swift_version = '5.0'
     
-    spec.dependency 'iDenfySDK', '~> 6.3.0'
+    spec.dependency 'iDenfySDK', '~> 7.1.1'
     spec.dependency 'sonect-core-ios'
 
     #these 2 need to be here until we can distro as XCFramework
