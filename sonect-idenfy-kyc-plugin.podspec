@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
                       LICENSE
                  }
     spec.author             = { "sonect" => "marko.hlebar@sonect.ch" }
-    spec.platform     = :ios, "10.0"
+    spec.platform     = :ios, "12.0"
     spec.source       = { :git => "https://github.com/sonect/sonect-idenfy-kyc-plugin.git", :tag => spec.version }
     spec.source_files       = 'IdenfyKycPlugin/*.swift', 'IdenfyKycPlugin/Classes/*.swift'
     spec.swift_version = '5.0'
