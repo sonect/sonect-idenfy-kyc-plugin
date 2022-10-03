@@ -7,9 +7,9 @@ target 'IdenfyKycPlugin' do
   use_frameworks!
 
   # Pods for IdenfyKycPlugin
-  pod 'iDenfySDK', '~> 7.1.1'
+  pod 'iDenfySDK', '~> 7.3.0'
   pod 'sonect-core-ios'
-
+  pod 'lottie-ios', '~> 3.2.1'
 end
 
 target 'KycPluginIntegrationApp' do
@@ -17,10 +17,10 @@ target 'KycPluginIntegrationApp' do
   use_frameworks!
 
   # Pods for KycPluginIntegrationApp
-  pod 'iDenfySDK', '~> 7.1.1'
+  pod 'iDenfySDK', '~> 7.3.0'
   pod 'sonect-shop-sdk-ios'
   pod 'sonect-core-ios'
-
+  pod 'lottie-ios', '~> 3.2.1'
 end
 
 post_install do |installer|

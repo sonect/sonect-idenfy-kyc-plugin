@@ -1,42 +1,38 @@
 PODS:
-  - iDenfySDK (7.1.1):
-    - iDenfySDK/iDenfySDK (= 7.1.1)
-    - JGProgressHUD
+  - iDenfySDK (7.3.0):
+    - iDenfySDK/iDenfySDK (= 7.3.0)
     - lottie-ios
     - ZIPFoundation (= 0.9.11)
-  - iDenfySDK/iDenfySDK (7.1.1):
-    - JGProgressHUD
+  - iDenfySDK/iDenfySDK (7.3.0):
     - lottie-ios
     - ZIPFoundation (= 0.9.11)
-  - JGProgressHUD (2.2)
   - lottie-ios (3.2.3)
-  - sonect-core-ios (1.4.5)
-  - sonect-shop-sdk-ios (1.15.3):
-    - sonect-core-ios (~> 1.4.5)
+  - sonect-core-ios (1.5.2)
+  - sonect-shop-sdk-ios (1.24.7):
+    - sonect-core-ios (~> 1.5.2)
   - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
-  - iDenfySDK (~> 7.1.1)
+  - iDenfySDK (~> 7.3.0)
+  - lottie-ios (~> 3.2.1)
   - sonect-core-ios
   - sonect-shop-sdk-ios
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - iDenfySDK
-    - JGProgressHUD
     - lottie-ios
     - sonect-core-ios
     - sonect-shop-sdk-ios
     - ZIPFoundation
 
 SPEC CHECKSUMS:
-  iDenfySDK: 8b469a86f628b5df3fdf87e9a02886468784bcf7
-  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  iDenfySDK: 8cbcc6b3944fea639e9901619b5ebac467f8996d
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
-  sonect-core-ios: cd02d778d93b80d52525d1b2fcc99cc28a1773cd
-  sonect-shop-sdk-ios: f9049e291e4c4d14a1b730c1cac6aebfe3747f5a
+  sonect-core-ios: da5b204bdf8030b6754e2daed4a16331fd224e26
+  sonect-shop-sdk-ios: 313b4e7718443e4c1d57818c8e682903e056154c
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: 4f9c992905137267c44b4a17d5fb4584de4bb678
+PODFILE CHECKSUM: 00b3b6ccfc61f98bbe8143389e71ca93f706825e
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.10.2

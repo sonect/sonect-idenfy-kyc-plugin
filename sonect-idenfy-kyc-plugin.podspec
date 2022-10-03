@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "sonect-idenfy-kyc-plugin"
-    spec.version      = "3.0.0"
+    spec.version      = "3.1.0"
     spec.summary      = "Sonect Scandit Scan Plugin"
     spec.description  = <<-DESC
     This is the Sonect Idenfy KYC Plugin public podspec. 
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     spec.source_files       = 'IdenfyKycPlugin/*.swift', 'IdenfyKycPlugin/Classes/*.swift'
     spec.swift_version = '5.0'
     
-    spec.dependency 'iDenfySDK', '~> 7.1.1'
+    spec.dependency 'iDenfySDK', '~> 7.3.0'
     spec.dependency 'lottie-ios', '3.2.1'
     spec.dependency 'sonect-core-ios'
 
