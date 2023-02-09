@@ -1,9 +1,9 @@
 PODS:
-  - iDenfySDK (7.5.0):
-    - iDenfySDK/iDenfySDK (= 7.5.0)
+  - iDenfySDK (7.3.0):
+    - iDenfySDK/iDenfySDK (= 7.3.0)
     - lottie-ios
     - ZIPFoundation (= 0.9.11)
-  - iDenfySDK/iDenfySDK (7.5.0):
+  - iDenfySDK/iDenfySDK (7.3.0):
     - lottie-ios
     - ZIPFoundation (= 0.9.11)
   - lottie-ios (3.2.3)
@@ -13,7 +13,7 @@ PODS:
   - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
-  - iDenfySDK
+  - iDenfySDK (~> 7.3.0)
   - lottie-ios (~> 3.2.1)
   - sonect-core-ios
   - sonect-shop-sdk-ios
@@ -27,12 +27,12 @@ SPEC REPOS:
     - ZIPFoundation
 
 SPEC CHECKSUMS:
-  iDenfySDK: d5292f6be63c5e8c1bb15b0d61dc655d70968d22
+  iDenfySDK: 8cbcc6b3944fea639e9901619b5ebac467f8996d
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   sonect-core-ios: da5b204bdf8030b6754e2daed4a16331fd224e26
   sonect-shop-sdk-ios: 313b4e7718443e4c1d57818c8e682903e056154c
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: 63b4376ae7b7b6206d5b400334d957bb3419ace9
+PODFILE CHECKSUM: 00b3b6ccfc61f98bbe8143389e71ca93f706825e
 
 COCOAPODS: 1.10.2
