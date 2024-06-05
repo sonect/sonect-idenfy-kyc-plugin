@@ -1,0 +1,30 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+#Use this fastfile when iDenfy is distributed as xcframework. 
+
+default_platform(:ios)
+
+platform :ios do
+
+  desc "Makes a public distribution."
+  lane :distribute do
+    import("ReleaseFramework.rb")
+    public_release("IdenfyKycPlugin.xcworkspace", 
+                   "IdenfyKycPlugin", 
+                   "sonect/sonect-idenfy-kyc-plugin", 
+                   "sonect-idenfy-kyc-plugin.podspec")
+  end
+end
