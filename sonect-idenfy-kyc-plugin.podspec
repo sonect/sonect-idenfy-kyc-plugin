@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     spec.source_files       = 'IdenfyKycPlugin/*.swift', 'IdenfyKycPlugin/Classes/*.swift'
     spec.swift_version = '5.0'
     
-    spec.dependency 'iDenfySDK', '~> 8.4.5'
+    spec.dependency 'iDenfySDK', '~> 8.5.1'
     spec.dependency 'lottie-ios', '4.4.3'
     spec.dependency 'sonect-core-ios'
 
