@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "sonect-idenfy-kyc-plugin"
-    spec.version      = "3.4.0"
+    spec.version      = "3.5.0"
     spec.summary      = "Sonect Scandit Scan Plugin"
     spec.description  = <<-DESC
     This is the Sonect Idenfy KYC Plugin public podspec. 
@@ -21,12 +21,11 @@ Pod::Spec.new do |spec|
     spec.source_files       = 'IdenfyKycPlugin/*.swift', 'IdenfyKycPlugin/Classes/*.swift'
     spec.swift_version = '5.0'
     
-    spec.dependency 'iDenfySDK'
-    spec.dependency 'lottie-ios'
+    spec.dependency 'iDenfySDK', '~> 8.5.1'
+    spec.dependency 'lottie-ios', '4.4.3'
     spec.dependency 'sonect-core-ios'
 
     #this don't pass pod lib lint until this is fixed  
     spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
     
   end
-  
