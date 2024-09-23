@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
     
     spec.dependency 'iDenfySDK', '8.5.3'
     spec.dependency 'lottie-ios', '4.5.0'
-    spec.dependency 'sonect-core-ios', '1.5.4'
+    spec.dependency 'sonect-core-sdk-ios'
 
     #this don't pass pod lib lint until this is fixed  
     spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
