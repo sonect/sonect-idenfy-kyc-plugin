@@ -8,7 +8,7 @@ target 'IdenfyKycPlugin' do
 
   # Pods for IdenfyKycPlugin
   pod 'iDenfySDK'
-  pod 'sonect-core-ios', '~> 1.5.4'
+  pod 'sonect-core-ios', :git => 'https://github.com/sonect/sonect-core-ios', :tag => '1.5.4'
   pod 'lottie-ios', '~> 4.4.3'
 end
 
@@ -19,7 +19,7 @@ target 'KycPluginIntegrationApp' do
   # Pods for KycPluginIntegrationApp
   pod 'iDenfySDK'
   pod 'sonect-shop-sdk-ios'
-  pod 'sonect-core-ios'
+  pod 'sonect-core-ios', :git => 'https://github.com/sonect/sonect-core-ios', :tag => '1.5.4'
   pod 'lottie-ios', '~> 4.4.3'
 end
 
