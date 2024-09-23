@@ -8,7 +8,7 @@ target 'IdenfyKycPlugin' do
 
   # Pods for IdenfyKycPlugin
   pod 'iDenfySDK'
-  pod 'sonect-core-ios'
+  pod 'sonect-core-ios', '~> 1.5.4'
   pod 'lottie-ios', '~> 4.4.3'
 end
 
