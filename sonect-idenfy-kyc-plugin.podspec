@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
     spec.swift_version = '5.0'
     
     spec.dependency 'iDenfySDK', '8.5.3'
-    spec.dependency 'lottie-ios', '4.5.0'
+    spec.dependency 'lottie-ios'
     spec.dependency 'sonect-core-sdk-ios'
 
     #this don't pass pod lib lint until this is fixed  
