@@ -27,14 +27,14 @@ class IdenfyKycResult: NSObject, SNCKycCheckResult {
     }
 }
 
-public class IdenfyKycProviderPlugin: NSObject, SNCKycProviderPlugin {
+public class IdenfyKycProviderPlugin: NSObject, @preconcurrency SNCKycProviderPlugin {
             
     public var platform: String = "idenfy"
     
     private var idenfyController: IdenfyController?
     private var idenfyViewController: UIViewController?
     
-    public func startKycCheck(_ presentingViewController: UIViewController,
+    @MainActor public func startKycCheck(_ presentingViewController: UIViewController,
                               configuration: [AnyHashable : Any],
                               handler: @escaping SNCKycCheckResultHandler) {
         guard let token = configuration["token"] as? String else {

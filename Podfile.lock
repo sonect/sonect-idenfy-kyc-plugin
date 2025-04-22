@@ -1,8 +1,8 @@
 PODS:
-  - iDenfySDK (8.4.5):
-    - iDenfySDK/iDenfySDK (= 8.4.5)
+  - iDenfySDK (8.6.3):
+    - iDenfySDK/iDenfySDK (= 8.6.3)
     - lottie-ios (= 4.4.3)
-  - iDenfySDK/iDenfySDK (8.4.5):
+  - iDenfySDK/iDenfySDK (8.6.3):
     - lottie-ios (= 4.4.3)
   - lottie-ios (4.4.3)
   - sonect-core-ios (1.5.2)
@@ -23,11 +23,11 @@ SPEC REPOS:
     - sonect-shop-sdk-ios
 
 SPEC CHECKSUMS:
-  iDenfySDK: 4bba551e7e824daf7db2b3bac166a9fe339c4269
+  iDenfySDK: 08176da8abd1067756aa98205b57f35380754f4d
   lottie-ios: fcb5e73e17ba4c983140b7d21095c834b3087418
   sonect-core-ios: da5b204bdf8030b6754e2daed4a16331fd224e26
   sonect-shop-sdk-ios: 313b4e7718443e4c1d57818c8e682903e056154c
 
 PODFILE CHECKSUM: a78f7cbb4e653a4d013b529e8b9ebbb9b2d53180
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
